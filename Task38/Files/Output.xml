@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <root-title-info>
+    <root-title-info-genre match="90">sf_fantasy</root-title-info-genre>
+    <root-title-info-author russian="No">
+      <root-title-info-author-first-name>Джон</root-title-info-author-first-name>
+      <root-title-info-author-middle-name>Рональд Руэл</root-title-info-author-middle-name>
+      <root-title-info-author-last-name>Толкин</root-title-info-author-last-name>
+    </root-title-info-author>
+    <root-title-info-book-title>Возвращение Короля</root-title-info-book-title>
+    <root-title-info-lang>ru</root-title-info-lang>
+    <root-title-info-src-lang>en</root-title-info-src-lang>
+    <root-title-info-translator>
+      <root-title-info-translator-first-name>Мария</root-title-info-translator-first-name>
+      <root-title-info-translator-last-name>Каменкович</root-title-info-translator-last-name>
+    </root-title-info-translator>
+    <root-title-info-translator>
+      <root-title-info-translator-first-name>Валерий</root-title-info-translator-first-name>
+      <root-title-info-translator-last-name>Каррик</root-title-info-translator-last-name>
+    </root-title-info-translator>
+    <root-title-info-sequence name="Властелин Колец" number="3" />
+  </root-title-info>
+  <root-title-info>
+    <root-title-info-genre>sf</root-title-info-genre>
+    <root-title-info-author russian="Yes">
+      <root-title-info-author-first-name>Аркадий</root-title-info-author-first-name>
+      <root-title-info-author-last-name>Стругацкий</root-title-info-author-last-name>
+    </root-title-info-author>
+    <root-title-info-author>
+      <root-title-info-author-first-name>Борис</root-title-info-author-first-name>
+      <root-title-info-author-last-name>Стругацкий</root-title-info-author-last-name>
+    </root-title-info-author>
+    <root-title-info-book-title>Улитка на склоне</root-title-info-book-title>
+    <root-title-info-lang>ru</root-title-info-lang>
+  </root-title-info>
+</root>
