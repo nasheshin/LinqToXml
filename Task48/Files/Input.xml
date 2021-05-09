@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <title-info>
+        <genre match="90">sf_fantasy</genre>
+        <author russian="No">
+            <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+            <first-name>Джон</first-name>
+            <middle-name>Рональд Руэл</middle-name>
+            <last-name>Толкин</last-name>
+        </author>
+        <book-title>Возвращение Короля</book-title>
+        <lang>ru</lang>
+        <src-lang>en</src-lang>
+        <translator>
+            <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+            <first-name>Мария</first-name>
+            <last-name>Каменкович</last-name>
+        </translator>
+        <translator>
+            <first-name>Валерий</first-name>
+            <last-name>Каррик</last-name>
+        </translator>
+        <sequence name="Властелин Колец" number="3" />
+    </title-info>
+    <title-info>
+        <genre>sf</genre>
+        <author russian="Yes">
+            <first-name>Аркадий</first-name>
+            <last-name>Стругацкий</last-name>
+        </author>
+        <author>
+            <first-name>Борис</first-name>
+            <last-name>Стругацкий</last-name>
+        </author>
+        <book-title>Улитка на склоне</book-title>
+        <lang>ru</lang>
+    </title-info>
+    <test>
+        <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+        <text>text</text>
+    </test>
+</root>

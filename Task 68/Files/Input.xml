@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <record>
+        <company>Лидер</company>
+        <street>ул.Чехова</street>
+        <brand>92</brand>
+        <price>2200</price>
+    </record>
+    <record>
+        <company>Лидер</company>
+        <street>ул.Чехова</street>
+        <brand>92</brand>
+        <price>2200</price>
+    </record>
+</root>
