@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <debt house="12" flat="23" entrance="1">
+        <name>Иванов А.В.</name>
+        <value>1245.64</value>
+    </debt>
+    <debt house="12" flat="26" entrance="2">
+        <name>Петров В.В.</name>
+        <value>100.00</value>
+    </debt>
+    <debt house="11" flat="1" entrance="1">
+        <name>Вилисов Н.Н.</name>
+        <value>0.00</value>
+    </debt>
+    <debt house="15" flat="58" entrance="3">
+        <name>Антоновна А.К.</name>
+        <value>15.40</value>
+    </debt>
+    <debt house="1" flat="2" entrance="1">
+        <name>Кравн П.В.</name>
+        <value>100010.00</value>
+    </debt>
+    <debt house="11" flat="27" entrance="2">
+        <name>Равн П.В.</name>
+        <value>300.00</value>
+    </debt>
+    <debt house="11" flat="28" entrance="2">
+        <name>Николаев А.А.</name>
+        <value>400.00</value>
+    </debt>
+    <debt house="1" flat="3" entrance="1">
+        <name>Александров А.А.</name>
+        <value>0.00</value>
+    </debt>
+</root>

@@ -1,15 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <station company="Лидер" street="ул.Чехова">
-    <info>
-      <brand>92</brand>
-      <price>2200</price>
-    </info>
-  </station>
-  <station company="Лидер" street="ул.Чехова">
-    <info>
-      <brand>92</brand>
-      <price>2200</price>
-    </info>
-  </station>
-</root>
+<root />
