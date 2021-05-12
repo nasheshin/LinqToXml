@@ -24,20 +24,22 @@ namespace Task78
             if (elements == null)
                 return;
             
-            var elementsByHouse = elements.GroupBy(elem => elem.Attribute("house")?.Value);
+            var elementsByHouse = elements.GroupBy(
+                elem => elem.Attribute("house")?.Value).OrderBy(x => x.Key);
             foreach (var groupHouse in elementsByHouse)
             {
                 var trackHouse = new XElement("house",
                     new XAttribute("number", groupHouse.Key));
 
 
-                var elementsByEntrance = groupHouse.GroupBy(elem => elem.Attribute("entrance")?.Value);
+                var elementsByEntrance = groupHouse.GroupBy(
+                    elem => elem.Attribute("entrance")?.Value).OrderBy(x => x.Key);
                 foreach (var groupEntrance in elementsByEntrance)
                 {
                     var trackEntrance = new XElement("entrance",
                         new XAttribute("number", groupEntrance.Key));
 
-                    foreach (var element in groupEntrance)
+                    foreach (var element in groupEntrance.OrderByDescending(x => x.Element("value")?.Value))
                     {
                         var newElement = new XElement("debt", element.Element("value")?.Value);
                         newElement.SetAttributeValue("name", element.Element("name")?.Value);
