@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <class number="9">
+        <pupil name="Степанова Г.Б." subject="Физика" mark="4" />
+        <pupil name="Ави А.Б." subject="Физика" mark="2" />
+        <pupil name="Степанова Г.Б." subject="Физика" mark="3" />
+        <pupil name="Ави А.Б." subject="Физика" mark="4" />
+    </class>
+    <class number="11">
+        <pupil name="Антионов Г.Б." subject="Химия" mark="3" />
+        <pupil name="Кешкин Г.Б." subject="Математика" mark="2" />
+        <pupil name="Кешкин Г.Б." subject="Математика" mark="3" />
+    </class>
+    <class number="8">
+        <pupil name="Петров Г.Б." subject="Биология" mark="4" />
+        <pupil name="Петров Г.Б." subject="Биология" mark="5" />
+        <pupil name="Петров Г.Б." subject="Биология" mark="5" />
+        <pupil name="Сановна Г.Б." subject="Физика" mark="0" />
+        <pupil name="Сановна Г.Б." subject="Физика" mark="1" />
+        <pupil name="Сановна Г.Б." subject="Физика" mark="1" />
+        <pupil name="Атров Г.Б." subject="Биология" mark="2" />
+        <pupil name="Атров Г.Б." subject="Биология" mark="2" />
+    </class>
+    <class number="1">
+        <pupil name="Кириешкин Г.Б." subject="Математика" mark="5" />
+        <pupil name="Кириешкин Г.Б." subject="Математика" mark="4" />
+        <pupil name="Авиыыы Г.Б." subject="Риторика" mark="5" />
+        <pupil name="Миним Г.Б." subject="Риторика" mark="4" />
+        <pupil name="Оина Г.Б." subject="Математика" mark="4" />
+    </class>
+</root>

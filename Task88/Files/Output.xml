@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <subject name="Биология">
+    <pupil class="8" name="Атров Г.Б." m1="2" m2="2" />
+    <pupil class="8" name="Петров Г.Б." m1="5" m2="5" m3="4" />
+  </subject>
+  <subject name="Математика">
+    <pupil class="1" name="Кириешкин Г.Б." m1="5" m2="4" />
+    <pupil class="11" name="Кешкин Г.Б." m1="3" m2="2" />
+  </subject>
+  <subject name="Риторика" />
+  <subject name="Физика">
+    <pupil class="8" name="Сановна Г.Б." m1="1" m2="1" m3="0" />
+    <pupil class="9" name="Ави А.Б." m1="4" m2="2" />
+    <pupil class="9" name="Степанова Г.Б." m1="4" m2="3" />
+  </subject>
+  <subject name="Химия" />
+</root>
