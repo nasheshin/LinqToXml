@@ -13,6 +13,7 @@
         <src-lang>en</src-lang>
         <translator>
             <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+            <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
             <first-name>Мария</first-name>
             <last-name>Каменкович</last-name>
         </translator>

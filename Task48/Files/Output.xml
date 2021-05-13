@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <title-info>
+    <genre match="90">sf_fantasy</genre>
+    <author russian="No">
+      <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+      <first-name>Джон</first-name>
+      <middle-name>Рональд Руэл</middle-name>
+      <has-instructions>true</has-instructions>
+      <last-name>Толкин</last-name>
+    </author>
+    <book-title>Возвращение Короля</book-title>
+    <lang>ru</lang>
+    <src-lang>en</src-lang>
+    <translator>
+      <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+      <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+      <first-name>Мария</first-name>
+      <has-instructions>true</has-instructions>
+      <last-name>Каменкович</last-name>
+    </translator>
+    <translator>
+      <first-name>Валерий</first-name>
+      <has-instructions>false</has-instructions>
+      <last-name>Каррик</last-name>
+    </translator>
+    <has-instructions>false</has-instructions>
+    <sequence name="Властелин Колец" number="3" />
+  </title-info>
+  <title-info>
+    <genre>sf</genre>
+    <author russian="Yes">
+      <first-name>Аркадий</first-name>
+      <has-instructions>false</has-instructions>
+      <last-name>Стругацкий</last-name>
+    </author>
+    <author>
+      <first-name>Борис</first-name>
+      <has-instructions>false</has-instructions>
+      <last-name>Стругацкий</last-name>
+    </author>
+    <book-title>Улитка на склоне</book-title>
+    <has-instructions>false</has-instructions>
+    <lang>ru</lang>
+  </title-info>
+  <has-instructions>false</has-instructions>
+  <test>
+    <?xml-stylesheet href = "tutorialspointstyle.css" type = "text/css"?>
+    <text>text</text>
+  </test>
+</root>

@@ -10,12 +10,21 @@ namespace Task48
     internal static class Program
     {
 
-        private static void BypassDocToMarkInstructions(XElement descendant)
+        private static void BypassDocToMarkInstructions(XElement element)
         {
-            Console.WriteLine(descendant.NextNode.NodeType);
+            foreach (var newElement in element.Elements())
+                BypassDocToMarkInstructions(newElement);
 
-            foreach (var newDescendant in descendant.Descendants())
-                BypassDocToMarkInstructions(newDescendant);
+            var elementsCount = element.Elements().Count();
+            if (elementsCount <= 1) return;
+            
+            var elemIndex = 0;
+            foreach (var curElement in element.Elements())
+            {
+                if (elemIndex == elementsCount - 2)
+                    curElement.AddAfterSelf(new XElement("has-instructions", element.Nodes().OfType<XProcessingInstruction>().Any()));
+                elemIndex++;
+            }
         }
 
         private static void Execute(string inputPath, string outputPath)
@@ -27,12 +36,9 @@ namespace Task48
                 return;
             }
 
-            foreach (var descendant in document.Root.Descendants())
-            {
-                BypassDocToMarkInstructions(descendant);
-            }
+            BypassDocToMarkInstructions(document.Root);
 
-            //document.Save(outputPath);
+            document.Save(outputPath);
         }
 
         private static void Main(string[] args)
